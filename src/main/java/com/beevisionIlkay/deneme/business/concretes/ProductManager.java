@@ -13,6 +13,7 @@ import com.beevisionIlkay.deneme.entities.concretes.Product;
 public class ProductManager implements ProductService{
 	private ProductDao productDao;
 	
+	//it is necessary
 	@Autowired
 	public ProductManager(ProductDao productDao) {
 		super();
