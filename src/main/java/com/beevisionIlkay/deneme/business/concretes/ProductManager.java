@@ -11,14 +11,11 @@ import com.beevisionIlkay.deneme.entities.concretes.Product;
 
 @Service
 public class ProductManager implements ProductService{
-	private ProductDao productDao;
+	
 	
 	//it is necessary
 	@Autowired
-	public ProductManager(ProductDao productDao) {
-		super();
-		this.productDao = productDao;
-	}
+	private ProductDao productDao;
 	
 	
 	@Override
